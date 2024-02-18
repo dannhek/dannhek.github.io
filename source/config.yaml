@@ -1,4 +1,5 @@
 baseURL: "https://hugo-profile.netlify.app"
+publishDir: "../dannhek.github.io"
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: "hugo-profile"
