@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Daniel (Dann) J. Hekman"
+  navbar:
+    left:
+      - text: "Me"
+        href: index.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - cv.qmd
+    right:
+      - icon: github
+        href: https://github.com/dannhek
+      - text: "{{< ai google-scholar >}}"
+        href: https://scholar.google.com/citations?hl=en&user=Bor3JqwAAAAJ
+      - text: "{{< ai orcid >}}"
+        href: https://orcid.org/0000-0002-7964-9501  
+format:
+  html:
+    theme:
+      light: united
+      dark: slate
+    css: styles.css
+resources:
+  - "downloads/*"
+  - "images/*"
+
+
+
