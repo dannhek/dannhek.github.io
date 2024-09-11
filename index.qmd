@@ -6,17 +6,17 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/dannhek
+      href: https://linkedin.com/in/dannhek
     - icon: github
       text: Github
       href: https://github.com/dannhek
     - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com      
+      href: https://scholar.google.com/citations?hl=en&user=Bor3JqwAAAAJ
     - text: "{{< ai orcid >}} ORCID"
-      href: https://scholar.google.com      
+      href: https://orcid.org/0000-0002-7964-9501
 ---
 
-I want to understand the world. Many people try to answer empirical questions with non-empirical evidence. I want to change that. I work with Dr. Brian Patterson to research the effects of informatics-based interventions in the emergency department on patient outcomes, especially falls and cognitive impairment screenings.
+I want to understand the world. Many people try to answer empirical questions with non-empirical evidence. I want to change that. I work with [Dr. Brian Patterson](https://emed.wisc.edu/people/brian-patterson/) to research the effects of informatics-based interventions in the emergency department on patient outcomes, especially falls and cognitive impairment screenings.
 
 ### Research Interests 
 
