@@ -7,20 +7,6 @@
     "text": "Hello World\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHello World\n\n\n\n\n\n\nHello World\n\n\n\n\n\n\n\n\n\nSep 10, 2024\n\n\nDann Hekman\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About",
-    "section": "",
-    "text": "I want to understand the world. Many people try to answer empirical questions with non-empirical evidence. I want to change that. I work with Dr. Brian Patterson to research the effects of informatics-based interventions in the emergency department on patient outcomes, especially falls and cognitive impairment screenings.\n\nResearch Interests\n\nEHR Phenotyping\nCausal Inference\nReal World Data\nReplication of findings in Real World Data"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Hello World",
-    "section": "",
-    "text": "New Site. New Post."
-  },
-  {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Curriculum Vitae",
@@ -61,5 +47,26 @@
     "title": "Curriculum Vitae",
     "section": "Presentations, abstracts, and other scholarly output",
     "text": "Presentations, abstracts, and other scholarly output\n\nHekman, D. J. (2020, October 22). CA-CDS Reporting Dashboard at UW. 3rd Annual Child Abuse Clinical Decision Support Virtual Conference.\nHekman, D. J. (2021, January 25). On Balance: Costs and Benefits of School Shutdowns. On Balance. https://benefitcostanalysis.org/blog/on-balance/2021-01-25-on-balance-costs-and-benefits-of-school-shutdowns\nHekman, D., Maru, A. P., & Patterson, B. W. (2023, March 7). Dashboarding for Machine Learning-based Clinical Decision Support Implementation and Monitoring Toolkit [Text]. HIPxChange.Org. https://www.hipxchange.org/CDSDashboard\nHekman, D., Maru, Schnapp, B. (2024). Dashboard for Emergency Medicine Resident Learning Metrics Toolkit [Text]. HIPxChange.Org. https://www.hipxchange.org/EMResidentDashboard\nTsuchida, R. E. (2022). Cultural Humility Curriculum to Address Healthcare Disparities for Emergency Medicine Residents WACEP [Oral Presentation]. Society for Academic Emergency Medicine, New Orleans, LA.\nZurbuchen, R., Hekman, D., Tsuchida, R., Barclay-Buchanan, C., Darsie, M., Bernardoni, B., & Glazer, J. (2023). 264: AN EQUITY DASHBOARD OF POTENTIALLY LIFE-SAVING INTERVENTIONS REVEALS UNDER-TRIAGE OF FEMALE PATIENTS. Critical Care Medicine, 51, 117–117. https://doi.org/10.1097/01.ccm.0000906792.48840.b3\nMany posters and abstracts I pulled data for that have been lost to the sands of time (and WACEP and SAEM archives)"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Hello World",
+    "section": "",
+    "text": "New Site. New Post."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "I want to understand the world. Many people try to answer empirical questions with non-empirical evidence. I want to change that. I work with Dr. Brian Patterson to research the effects of informatics-based interventions in the emergency department on patient outcomes, especially falls and cognitive impairment screenings.\n\nResearch Interests\n\nEHR Phenotyping\nCausal Inference\nReal World Data\nReplication of findings in Real World Data"
+  },
+  {
+    "objectID": "funstuff.html",
+    "href": "funstuff.html",
+    "title": "Fun Stuff",
+    "section": "",
+    "text": "In my free time, I enjoy …\n\n\n\n\nKayaking Madison’s beautiful lakes.\n\n\n\nPlaying bass in local bands.\n\n\n\nCuddling and walking my dog (Theodore) Roosevelt."
   }
 ]

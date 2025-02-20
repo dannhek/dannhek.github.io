@@ -11,6 +11,8 @@ website:
       - text: "Blog"
         href: blog.qmd
       - cv.qmd
+      - text: "Fun Stuff"
+        href: funstuff.qmd
     right:
       - icon: github
         href: https://github.com/dannhek
