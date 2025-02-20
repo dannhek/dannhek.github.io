@@ -1,0 +1,11 @@
+---
+title: "First CRAN Package: babyTimeR"
+author: "Dann Hekman"
+date: "2025-02-19"
+categories: 
+  - CRAN
+  - R
+  - Parenting
+---
+
+Kids, amiright?
