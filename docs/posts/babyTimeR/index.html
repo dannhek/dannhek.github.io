@@ -206,7 +206,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
@@ -227,16 +227,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>See the app for the latest workflow, but here’s how it worked as of the writing of this document for an iPhone and Macbook Air.</p>
 <p>On my iPhone:</p>
 <div class="columns">
-<div class="column">
+<div class="column" style="width:30%;">
 <p>In the app, go to settings, then export data</p>
 <p><img src="bt settings.PNG" width="100px"></p>
-</div><div class="column">
+</div><div class="column" style="width:30%;">
 <p>Daily Record (txt)</p>
 <p><img src="export.PNG" width="100px"></p>
-</div><div class="column">
+</div><div class="column" style="width:40%;">
 <p>Follow the instructions here to pull the files onto your computer.</p>
 <p><img src="export instructions.PNG" width="100px"></p>
-</div><p>::: <!-- end columns --></p><p>Pulling the files from finder</p><p><img src="in finder.png" width="300px"></p><section id="reading-in-data" class="level1">
+</div>
+</div>
+<p>Pulling the files from finder</p>
+<p><img src="in finder.png" width="300px"></p>
+</section>
+<section id="reading-in-data" class="level1">
 <h1>Reading in data</h1>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(babyTimeR)</span>
@@ -245,7 +250,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">verbose =</span> <span class="cn">TRUE</span> </span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section><section id="features" class="level1">
+</section>
+<section id="features" class="level1">
 <h1>Features</h1>
 <p>This will read in data into a <code>Clean BT List DB</code> object, which is a <code>list</code> object with a specified structure. Each element of the list corresponds to the data type recorded in BabyTime.</p>
 <div class="cell">
@@ -260,7 +266,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">head</span>() <span class="sc">|&gt;</span></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    gt<span class="sc">::</span><span class="fu">gt</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section><section id="sleep-graph-example" class="level1">
+</section>
+<section id="sleep-graph-example" class="level1 page-columns page-full">
 <h1>Sleep Graph Example</h1>
 <p>Obviously, one of the most salient life changes for new parents is sleep, which is what drove me to write this package so we could analyze the sleep changes over time of my daughter.</p>
 <div class="cell">
@@ -275,7 +282,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    sample_baby_db <span class="ot">&lt;-</span> <span class="fu">readRDS</span>(<span class="st">'sample_baby_db.RDS'</span>)</span>
 <span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
 <span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    sample_baby_db <span class="ot">&lt;-</span> <span class="fu">process_one_directory</span>(<span class="st">'Raw Data'</span>, <span class="st">'sample_baby_db.RDS'</span>)</span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>}<span class="sc">**</span><span class="er">**</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>}</span>
 <span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>display_time <span class="ot">&lt;-</span> <span class="cf">function</span>(mins) {glue<span class="sc">::</span><span class="fu">glue</span>(<span class="st">"{mins %/% 60}h{mins %% 60}m"</span>)}</span>
 <span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>max_na <span class="ot">&lt;-</span> <span class="cf">function</span>(...) {</span>
@@ -436,15 +443,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-170"><a href="#cb4-170" aria-hidden="true" tabindex="-1"></a>        <span class="at">caption =</span> <span class="st">'Data collected via BabyTime app'</span></span>
 <span id="cb4-171"><a href="#cb4-171" aria-hidden="true" tabindex="-1"></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<div class="column-page">
 <p><img src="SleepTrend.png"></p>
-</section><section id="conclusion" class="level1">
+</div>
+</section>
+<section id="conclusion" class="level1">
 <h1>Conclusion</h1>
 <p>This is obviously just one possible use. If you keep particularly good record of what foods you give your baby, there are lots of great visualization and infographic oppoartunities there. If anyone wants to build an ML model to identify factures that minimize wake-ups at night, I’d love to hear your results.</p>
 <p>I hope this is a helpful way for you to track your little one’s activity and use the results to improve your care and life.</p>
 
 
-</section>
-</div>
 </section>
 
 </main> <!-- /main -->
