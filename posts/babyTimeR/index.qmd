@@ -270,7 +270,11 @@ ggplot(
 	)
 ```
 
+::: {.column-page}
+
 <img src="SleepTrend.png"/>
+
+:::
 
 # Conclusion
 
