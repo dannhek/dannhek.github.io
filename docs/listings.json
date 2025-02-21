@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/babyTimeR/index.html",
       "/posts/welcome/index.html"
     ]
   }
